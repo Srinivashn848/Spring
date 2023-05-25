@@ -35,11 +35,13 @@ public static void main(String[] args) {
 //	System.out.println(car);
 	
 //	ref for injecting object
-	
-	Car car2=(Car) context.getBean("car");
-	System.out.println(car2);
+//	
+Car car=(Car) context.getBean("car");
+System.out.println(car);
 
-	Bike bike=(Bike) context.getBean("bike");
-	System.out.println(bike);
+Bike bike=(Bike) context.getBean("bike");
+System.out.println(bike);
+
+
 }
 }

@@ -6,9 +6,15 @@ import org.springframework.beans.factory.xml.XmlBeanFactory;
 public class Car {
 	String brand;
 	int topspeed;
-	SonyMusicSystem musicSystem;
+	MusicSystem musicSystem;
 	
+public MusicSystem getMusicSystem() {
+		return musicSystem;
+	}
 
+	public void setMusicSystem(MusicSystem musicSystem) {
+		this.musicSystem = musicSystem;
+	}
 
 public String getBrand() {
 		return brand;
@@ -26,13 +32,6 @@ public String getBrand() {
 		this.topspeed = topspeed;
 	}
 
-	public SonyMusicSystem getMusicSystem() {
-		return musicSystem;
-	}
-
-	public void setMusicSystem(SonyMusicSystem musicSystem) {
-		this.musicSystem = musicSystem;
-	}
 
 public Car(){
 	System.out.println(" car object is created");
