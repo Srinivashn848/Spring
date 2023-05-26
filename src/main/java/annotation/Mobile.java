@@ -14,10 +14,10 @@ public class Mobile {
 //	  System.out.println("object created");
 //  } component is used to create object
 //	value is used to intialize values
-	@Value("one plus")
-	String brand;
-	@ Value("8")
-	int ram;
+//	@Value("one plus")
+//	String brand;
+//	@ Value("8")
+//	int ram;
 	
 	
 //	@Autowired
@@ -45,15 +45,15 @@ public class Mobile {
 	
 	
 	@Autowired
-	@Qualifier("jio")
+//	@Qualifier("jio")
 //	 qualifier same as primary but has higher preference
 	Sim sim;
 
 
-	@Override
-	public String toString() {
-		return "Mobile [brand=" + brand + ", ram=" + ram + ", sim=" + sim + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Mobile [brand=" + brand + ", ram=" + ram + ", sim=" + sim + "]";
+//	}
 	
 	
 }
